@@ -5,6 +5,8 @@ int main(void){
     int x = get_int("What's x? ");
     int y = get_int("What's y? ");
 
+    bool expr = false;
+
     if(x > y){
         printf("x is greater than y\n");
     }else if(x < y) {
@@ -12,4 +14,8 @@ int main(void){
     }else{
         printf("X is equal to y");
     }
+
+    // Ternary operation
+
+    int ans = (expr) ? 300 : 200;
 }
